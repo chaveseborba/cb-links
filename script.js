@@ -8,7 +8,7 @@ function toggleMode() {
 
   if (html.classList.contains(lightMode)) {
     img.setAttribute("src", "./resources/logo-light.png");
-    footer.innerHTML = "Feito com ❤️ por © Chaves & Borba";
+    footer.innerHTML = "Feito com 🖤 por © Chaves & Borba";
   } else {
     img.setAttribute("src", "./resources/logo-dark.png");
     footer.innerHTML = "Feito com 🤍 por © Chaves & Borba";
